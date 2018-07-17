@@ -198,7 +198,7 @@ exports.handler = skillBuilder
     CompletedPlanMyTripHandler,
     CancelStopHandler,
     HelpHandler,
-    SessionEndedHandler,
+    SessionEndedHandler
   )
   .addErrorHandlers(ErrorHandler)
   .lambda();
